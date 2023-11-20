@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;800&display=swap');
+
+
+body{
+    background-color: rgb(0, 0, 0);
+    margin-top: 0;
+    color: white;
+}
+*{
+box-sizing: border-box;
+}
+.The-card{
+    background-color: #1F2937;
+    text-align: center;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 696px;
+    width:550px;
+}
+#Header{
+    font-family: Inter;
+    font-weight: bolder;
+    height:285px;
+    background-color: #6943FF;
+}
+
+#Title{
+    padding-top: 30px;
+}
+
+#Input-box{
+    line-height: 24.393px;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+    font-size: 58px;
+    width: 117px;
+    height: 83px;
+    flex-shrink: 0;
+    background: none;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+#clear-btn{
+    padding: 9px 35px 9px;
+
+}
+.BTns{
+    cursor: pointer;
+    border-radius: 5px ;
+    border: none;
+    padding: 9px 27px 9px;
+    margin-top: 10px;
+}
+.Metric-Boxes{
+    font-family: Inter;
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 500px;
+    height: 108.573px;
+    flex-shrink: 0;
+    background: #273549;
+}
+.Metric-Text{
+    padding-top: 31px;
+    flex-shrink: 0;
+    color: #CCC1FF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+}
+.formula-Text{
+    font-family: Inter;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    width: 346px;
+    height: 25px;
+    flex-shrink: 0;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
